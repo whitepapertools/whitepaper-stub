@@ -1,0 +1,9 @@
+.unit {
+	height: 456px; 
+	padding: var(--space-xl);
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+	box-sizing: border-box;
+}
