@@ -1,20 +1,16 @@
 .friendlist {
-	min-height: 456px;
 	overflow: hidden;
 	&__group {
 		flex-flow: row wrap;
 	}
-
 	&__letter {
 		width: 100%;
 	}
-
 	&__item {
 		width: 80px;
 		text-align: center;
 		position: relative;
 	}
-
 	&__status {
 		position: absolute;
 		bottom: 0;

@@ -1,5 +1,4 @@
 .activities {
-	min-height: 456px;
 	&__item {
 		align-items: center;
 	}
