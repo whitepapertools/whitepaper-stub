@@ -49,7 +49,7 @@
     "postcss-url": "^7.3.2",
     "rebem-css": "^0.2.0",
     "through2-filter": "^2.0.0",
-    "whitepaper-bem": "^0.0.21",
+    "whitepaper-bem": "^1.0.0",
     "ym": "^0.1.2"
   },
   "scripts": {
