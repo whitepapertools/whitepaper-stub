@@ -1,7 +1,0 @@
-.comments-section {
-	box-sizing: border-box;
-	&__header {
-		display: flex;
-		justify-content: space-between;
-	}
-}
