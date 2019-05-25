@@ -37,13 +37,13 @@ const techs = {
     levels = [
         { path: 'node_modules/bem-core/common.blocks', check: false },
         { path: 'node_modules/bem-core/desktop.blocks', check: false },
-        'common.blocks',
-        'desktop.blocks',
         { path: 'node_modules/bem-components-custom/common.blocks', check: false },
         { path: 'node_modules/bem-components-custom/desktop.blocks', check: false },
         { path: 'node_modules/bem-components-custom/design/common.blocks', check: false },
         { path: 'node_modules/bem-components-custom/design/desktop.blocks', check: false },
         { path: 'node_modules/whitepaper-bem', check: false },
+        'common.blocks',
+        'desktop.blocks',
     ];
 
 module.exports = function(config) {
