@@ -1,0 +1,6 @@
+.tpl-section_space-v_third {
+	.tpl-section__area {
+		padding-top: var(--col-gap-third);
+		padding-bottom: var(--col-gap-third);
+	}
+}

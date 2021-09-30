@@ -1,0 +1,11 @@
+.icon2_round_success {
+	border-radius: 50%;
+	fill: var(--color-bg-default);
+	background-color: var(--color-typo-success);
+	&.icon2_size_s {
+		padding: var(--space-s);
+	}
+	&.icon2_size_m {
+		padding: calc(var(--space-m) + var(--space-xxxs));
+	}
+}

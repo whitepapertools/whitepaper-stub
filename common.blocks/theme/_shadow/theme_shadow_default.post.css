@@ -1,0 +1,12 @@
+.theme_shadow_default {
+	/* Тень для контента */
+	--shadow-content-default: 0 0 2px 0 rgba(0, 8, 50, 0.04), 0 2px 4px 0 rgba(0, 8, 50, 0.04), 0 3px 12px 1px rgba(0, 8, 50, 0.08); /* обычное состояние */
+	--shadow-content-raise: 0 0 8px -4px rgba(0, 8, 50, 0.04), 0 4px 12px -2px rgba(0, 8, 50, 0.04), 0 12px 24px 0 rgba(0, 8, 50, 0.08); /* состояние при наведении */
+
+	/* Тень для блоков находящихся над контеном */
+	--shadow-cloud-default: 0 4px 20px 1px rgba(0, 8, 50, 0.04), 0 8px 24px 2px rgba(0, 8, 50, 0.08); /* обычное состояние */
+	--shadow-cloud-raise: 0 12px 26px -2px rgba(0, 8, 50, 0.04), 0 16px 40px -4px rgba(0, 8, 50, 0.08); /* состояние при наведении */
+
+	/* Тень для модальных окон или штор */
+	--shadow-modal-default: 0 0 12px 0 rgba(0, 8, 50, 0.16);
+}

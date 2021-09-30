@@ -1,0 +1,116 @@
+.theme_animation_default {
+	/* Появление */
+	@keyframes fadeIn {
+		from {
+			opacity: 0;
+		}
+
+		to {
+			opacity: 1;
+		}
+	}
+
+	/* Исчезновение */
+	@keyframes fadeOut {
+		from {
+			opacity: 1;
+		}
+
+		to {
+			opacity: 0;
+		}
+	}
+
+	/* Приглушение */
+	@keyframes meltOut {
+		from {
+			opacity: 1;
+		}
+
+		to {
+			opacity: 0.9;
+		}
+	}
+
+	/* Поворот на себя */
+	@keyframes rotateIn {
+		from {
+			transform-origin: center;
+			transform: rotate3d(0, 0, 1, -179.9deg);
+		}
+
+		to {
+			transform-origin: center;
+			transform: translate3d(0, 0, 0);
+		}
+	}
+
+	/* Скольжение снизу */
+	@keyframes slideInDown {
+		from {
+			transform: translate3d(0, -100%, 0);
+			visibility: visible;
+		}
+
+		to {
+			transform: translate3d(0, 0, 0);
+		}
+	}
+
+	/* Скольжение сверху */
+	@keyframes slideInUp {
+		from {
+			transform: translate3d(0, 100%, 0);
+			visibility: visible;
+		}
+
+		to {
+			transform: translate3d(0, 0, 0);
+		}
+	}
+
+	/* Скольжение слева */
+	@keyframes slideInLeft {
+		from {
+			transform: translate3d(-100%, 0, 0);
+			visibility: visible;
+		}
+
+		to {
+			transform: translate3d(0, 0, 0);
+		}
+	}
+
+	/* Поднятие */
+	@keyframes riseUp {
+		from {
+			transform: translateY(0);
+		}
+		to {
+			transform: translateY(-10px);
+		}
+	}
+
+	/* Потряхивание */
+	@keyframes shake {
+		from,
+		to {
+			transform: translate3d(0, 0, 0);
+		}
+
+		10%,
+		30%,
+		50%,
+		70%,
+		90% {
+			transform: translate3d(-10px, 0, 0);
+		}
+
+		20%,
+		40%,
+		60%,
+		80% {
+			transform: translate3d(10px, 0, 0);
+		}
+	}
+}

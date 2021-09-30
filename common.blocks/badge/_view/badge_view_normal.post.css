@@ -1,0 +1,12 @@
+.badge_view_normal {
+	&.badge_weight_light {
+		color: var(--color-typo-normal);
+		background-color: var(--color-bg-default);
+		border: 1px solid var(--color-typo-normal);
+	}
+
+	&.badge_weight_heavy {
+		color: var(--color-bg-default);
+		background-color: var(--color-typo-normal);
+	}
+}

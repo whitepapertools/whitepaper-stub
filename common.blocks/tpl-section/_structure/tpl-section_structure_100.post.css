@@ -1,0 +1,37 @@
+.tpl-section_structure_100 {
+	.tpl-section__area {
+		justify-content: center;
+
+		@media screen and (max-width: $screen-s-max) {
+			justify-content: flex-start;
+		}
+	}
+
+	&.tpl-section_size_xs {
+		.tpl-section__container {
+			max-width: var(--container-xs);
+			width: 100%;
+		}
+	}
+
+	&.tpl-section_size_s {
+		.tpl-section__container {
+			max-width: var(--container-s);
+			width: 100%;
+		}
+	}
+
+	&.tpl-section_size_m {
+		.tpl-section__container {
+			max-width: var(--container-m);
+			width: 100%;
+		}
+	}
+
+	&.tpl-section_size_l {
+		.tpl-section__container {
+			max-width: var(--container-l);
+			width: 100%;
+		}
+	}
+}

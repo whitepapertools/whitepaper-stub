@@ -1,0 +1,6 @@
+.page {
+    background-color: var(--color-bg-default);
+    min-height: 100%;
+    margin: 0;
+    color: var(--color-typo-primary);
+}

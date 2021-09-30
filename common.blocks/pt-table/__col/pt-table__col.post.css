@@ -1,0 +1,4 @@
+.pt-table__col {
+    position: relative;
+    box-sizing: border-box;
+}

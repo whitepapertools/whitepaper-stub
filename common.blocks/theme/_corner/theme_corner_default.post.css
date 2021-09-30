@@ -1,0 +1,8 @@
+.theme_corner_default {
+	--radius-xs: 2px;
+	--radius-s: 4px;
+	--radius-m: 8px;
+	--radius-l: 12px;
+	--radius-xl: 16px;
+	--radius-xxl: 20px;
+}

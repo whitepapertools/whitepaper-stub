@@ -1,0 +1,10 @@
+.badge {
+	display: inline-block;
+	position: relative;
+	max-width: 100%;
+	box-sizing: border-box;
+	border-radius: 99em;
+	font-weight: 500;
+	padding-top: var(--space-xxs);
+	padding-bottom: var(--space-xxs);
+}

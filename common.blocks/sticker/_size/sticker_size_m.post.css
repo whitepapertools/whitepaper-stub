@@ -1,0 +1,7 @@
+.sticker_size_m {
+	width: 60px;
+	height: 60px;
+	&.sticker_form_mask {
+		border-radius: var(--radius-l);
+	}
+}

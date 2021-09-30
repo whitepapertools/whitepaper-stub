@@ -1,0 +1,6 @@
+.tpl-section_space-v_two-thirds {
+	.tpl-section__area {
+		padding-top: var(--col-gap-two-thirds);
+		padding-bottom: var(--col-gap-two-thirds);
+	}
+}

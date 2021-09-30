@@ -1,0 +1,7 @@
+.pt-table__row_view_head {
+    background: transparent;
+
+    &:hover {
+        background: transparent;
+    }
+}

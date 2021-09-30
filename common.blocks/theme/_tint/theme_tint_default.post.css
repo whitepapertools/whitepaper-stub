@@ -1,0 +1,23 @@
+.theme_tint_default {
+	/* Цвета блоков */
+	--tint-bg-alfa: #fac800;
+	--tint-bg-beta: #f06c00;
+	--tint-bg-gamma: #ff0f3c;
+	--tint-bg-delta: #5153f6;
+	--tint-bg-epsilon: #01b6ef;
+	--tint-bg-zeta: #06c18a;
+	--tint-bg-eta: #292929;
+	--tint-bg-theta: #a6a6a6;
+	--tint-bg-iota: #fff;
+
+	/* Цвета текста */
+	--tint-typo-alfa: #ffd11a;
+	--tint-typo-beta: #ff811a;
+	--tint-typo-gamma: #ff3359;
+	--tint-typo-delta: #696bf7;
+	--tint-typo-epsilon: #24cafe;
+	--tint-typo-zeta: #07da9c;
+	--tint-typo-eta: #333;
+	--tint-typo-theta: #b3b3b3;
+	--tint-typo-iota: #fff;
+}
