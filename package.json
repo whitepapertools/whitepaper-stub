@@ -50,6 +50,7 @@
     "postcss-url": "^7.3.2",
     "rebem-css": "^0.2.0",
     "through2-filter": "^2.0.0",
+    "whitepaper-bem": "^2.3.0",
     "ym": "^0.1.2"
   },
   "scripts": {
@@ -58,7 +59,5 @@
     "build": "enb make"
   },
   "private": true,
-  "dependencies": {
-    "whitepaper-bem": "^2.3.10"
-  }
+  "dependencies": {}
 }

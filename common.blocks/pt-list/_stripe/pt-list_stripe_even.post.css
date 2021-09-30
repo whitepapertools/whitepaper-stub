@@ -1,3 +1,0 @@
-.pt-list_stripe_even > .pt-list__item:nth-child(2n) {
-    background-color: var(--color-bg-stripe);
-}

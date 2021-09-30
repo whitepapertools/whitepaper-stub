@@ -1,6 +1,0 @@
-.tpl-section__area_xs-order_1 {
-	@media screen and (max-width: $screen-s-max) {
-		order: 1;
-	}
-}
-

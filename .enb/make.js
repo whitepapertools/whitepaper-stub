@@ -18,7 +18,7 @@ const techs = {
             require('postcss-calc')(),
             require('postcss-nested'),
             require('rebem-css'),
-            require('postcss-url')({ url: 'rebase' }),
+            require('postcss-url')({ url: 'inline' }),
             require('autoprefixer')(),
             require('postcss-reporter')()
         ],
@@ -41,7 +41,7 @@ const techs = {
         { path: 'node_modules/bem-components-custom/desktop.blocks', check: false },
         { path: 'node_modules/bem-components-custom/design/common.blocks', check: false },
         { path: 'node_modules/bem-components-custom/design/desktop.blocks', check: false },
-
+        { path: 'node_modules/whitepaper-bem', check: false },
         'common.blocks',
         'desktop.blocks',
     ];

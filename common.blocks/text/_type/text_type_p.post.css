@@ -1,7 +1,0 @@
-.text_type_p {
-  margin: 0 0 0.9em;
-}
-
-.text_type_p:not(:last-child) {
-  margin-bottom: 0;
-}

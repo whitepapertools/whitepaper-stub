@@ -1,7 +1,0 @@
-.pt-table_border_between {
-    border-collapse: collapse;
-
-    & .pt-table__row:not(:last-child) {
-        border-bottom: 1px solid var(--color-bg-border);
-    }
-}

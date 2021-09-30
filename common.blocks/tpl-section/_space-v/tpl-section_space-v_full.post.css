@@ -1,6 +1,0 @@
-.tpl-section_space-v_full {
-	.tpl-section__area {
-		padding-top: var(--col-gap-full);
-		padding-bottom: var(--col-gap-full);
-	}
-}
